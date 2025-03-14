@@ -1,0 +1,17 @@
+:root {
+    --font-family: ;
+    --second-family: ;
+    --main-title-color: ;
+    --main-text-color: ;
+    --hover-color: ;
+    --darc-bg-color: ;
+    --secondary-text-color: ;
+}
+.header-button {
+    border-color: #26C7EA;
+    width: 141px;
+    height: 41px;
+}
+.header-button-text {
+    color: #26C6EA;
+}
