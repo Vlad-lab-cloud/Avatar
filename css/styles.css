@@ -1,15 +1,38 @@
 :root {
-    --font-family:  ;
-    --second-family:  ;
-    --main-title-color: ;
-    --main-text-color: ;
-    --secondary-text-color: ;
+  --font-family: ;
+  --second-family: ;
+  --main-title-color: ;
+  --main-text-color: ;
+  --secondary-text-color: ;
 }
 .header-button {
-    border-color: #26C7EA;
-    width: 141px;
-    height: 41px;
+  border-color: #26c7ea;
+  color: #26c6ea;
+  background-color: #0b0e66;
+  width: 141px;
+  height: 41px;
 }
-.header-button-text {
-    color: #26C6EA;
+.hero-section-button {
+  border-color: #26c7ea;
+  color: #26c6ea;
+  background-color: #0b0e66;
+  width: 260px;
+  height: 80px;
+}
+.container {
+  width: 1032px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.header {
+  width: 1440px;
+  padding-top: 39px;
+  padding-bottom: 39px;
+  background-image: url(../images/headerimage.png);
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
 }
