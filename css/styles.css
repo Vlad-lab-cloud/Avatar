@@ -1,9 +1,9 @@
 :root {
-  --font-family: ;
-  --second-family: ;
-  --main-title-color: ;
-  --main-text-color: ;
-  --secondary-text-color: ;
+  --font-family: "Inter" ;
+  --second-family: "Headland" ;
+  --main-title-color:#0a3853 ;
+  --main-text-color:  #000 ;
+  --secondary-text-color:#fff ;
 }
 .header-button {
   border-color: #26c7ea;
@@ -20,7 +20,7 @@
   height: 80px;
 }
 .container {
-  width: 1032px;
+  width: 1052px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 10px;
@@ -35,4 +35,53 @@
   margin: 0 auto;
   display: flex;
   align-items: center;
+}
+.quote {
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 36px;
+text-align: justify;
+color: #0a3853;
+}
+.header-links {
+  font-family: var(--font-family);
+font-weight: 600;
+font-size: 20px;
+text-align: center;
+color: #94cfff;
+text-decoration: none;
+}
+.translations-list-text {
+  font-family: var(--second-family);
+font-weight: 400;
+font-size: 24px;
+line-height: 100%;
+text-align: justify;
+color: #141414;
+}
+.footer {
+  width: 1440px;
+}
+.hero-section {
+  background-image: url(../images/herosectionimage.png) ;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 1440px;
+  height: 740px;
+  display: flex;
+  margin: auto;
+}
+.first-quote {
+  margin: 75px;
+  align-content: center;
+  background-image: url(../images/bird.png) ;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.nav-list {
+  margin-top: 39px;
+  margin-bottom: 37px;
+  display: flex;
+  column-gap: 38px;
+  align-content: center;
 }
