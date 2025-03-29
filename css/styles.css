@@ -28,28 +28,41 @@
 }
 .header {
   width: 1440px;
-  padding-top: 39px;
-  padding-bottom: 39px;
-  background-image: url(../images/headerimage.png);
+  background-color: brown;
+  background-image: linear-gradient( to top,rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.97)), url(../images/headerimage.png);;
   background-repeat: no-repeat;
   margin: 0 auto;
   display: flex;
   align-items: center;
 }
-.quote {
+.quote1 {
   font-family: var(--font-family);
 font-weight: 400;
 font-size: 36px;
 text-align: justify;
 color: #0a3853;
 }
-.header-links {
+.quote2 {
   font-family: var(--font-family);
-font-weight: 600;
+font-weight: 400;
+font-size: 36px;
+text-align: justify;
+color: #141414;
+}
+.quote3 {
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 36px;
+text-align: justify;
+color: #141414;
+}
+.header-links {
+ text-decoration: none;
+  font-family: "Inter";
+font-weight: 300;
 font-size: 20px;
-text-align: center;
-color: #94cfff;
-text-decoration: none;
+color: #fff;
+margin: 63px;
 }
 .translations-list-text {
   font-family: var(--second-family);
@@ -61,6 +74,10 @@ color: #141414;
 }
 .footer {
   width: 1440px;
+}
+.logo {
+  margin-top: 38px;
+  margin-bottom: 39px;
 }
 .hero-section {
   background-image: url(../images/herosectionimage.png) ;
@@ -74,14 +91,86 @@ color: #141414;
 .first-quote {
   margin: 75px;
   align-content: center;
-  background-image: url(../images/bird.png) ;
-  background-repeat: no-repeat;
-  background-position: center;
+}
+.second-quote {
+  margin: 75px;
+  align-content: center;
+}
+.third-quote {
+  margin: 75px;
+  align-content: center;
 }
 .nav-list {
   margin-top: 39px;
-  margin-bottom: 37px;
   display: flex;
   column-gap: 38px;
   align-content: center;
+}
+.footer {
+  background-image: url(../images/footer-background.png) ;
+  width: 1440px;
+  height: 223px;
+  margin: auto;
+}
+.socials-icon {
+  margin-left: 1190px;
+}
+.hero-section-text1 {
+  margin-top: 186px;
+  width: 298px;
+  height: 96px;
+  font-weight: 400;
+font-size: 20px;
+color: #fff;
+font-family: "Inter";
+}
+.hero-section-text2 {
+  width: 376px;
+  height: 123px;
+  font-weight: 400;
+font-size: 20px;
+color: #fff;
+font-family: "Inter";
+}
+.sub-title {
+  font-family: "Inter";
+  font-weight: 400;
+font-size: 24px;
+text-align: center;
+color: #000;
+}
+.translation {
+  margin: auto;
+  width: 1440px;
+  height: 704px;
+  background-image:url(../images/backgroundfortranslation.png) ;
+  align-content: center;
+}
+.switcher {
+  margin: 49px;
+}
+.hero-section {
+  background-color: #ffff;
+}
+.trailer-button {
+  border: none;
+}
+.translations-list {
+  display: flex;
+  flex-wrap: wrap;
+    flex-basis: calc((100% - 2 * 36px / 3));
+  column-gap: 36px;
+  row-gap: 24px;
+}
+.translations-list-item {
+  width: 320px;
+  height: 240px;
+  background-color: rgba(255, 255, 255, 0.7);;
+}
+.learning-navi {
+  font-family: "Headland";
+font-weight: 400;
+font-size: 32px;
+text-align: justify;
+color: #141414;
 }
