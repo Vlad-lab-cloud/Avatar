@@ -274,14 +274,15 @@ border-top-left-radius: 41px;
   width: 1440px;
   height: 223px;
   margin: 0 auto;
-  padding-top: 35px;
-  padding-bottom: 25px;
+  padding-top: 25px;
+  padding-bottom: 35px;
 }
 .address-list {
   display: flex;
   flex-direction: column;
-  margin: 0px;
+  margin-left: 80px;
   padding: 0px;
+  margin-top: 55px;
 }
 .copyright {
   margin-left: 667px;
@@ -293,9 +294,14 @@ border-top-left-radius: 41px;
 .footer-position {
   display: flex;
 }
+.footer-div {
+  height: 153px;
+  width: 0px;
+  outline: 1px solid white;
+  margin-top: 15px;
+}
 .address-item1 {
   background-image: url(../images/footerlines.png) ;
-  background-position: 205px;
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
@@ -303,8 +309,9 @@ border-top-left-radius: 41px;
   justify-content: space-between;
   width: 665px;
   height: 24px;
-  background-size: 269px;
+  background-size: 210px;
   background-position: 205px;
+  margin-bottom: 16px;
 }
 .address-item2 {
   background-image: url(../images/footerlines.png) ;
@@ -316,7 +323,7 @@ border-top-left-radius: 41px;
   justify-content: space-between;
   width: 689px;
   height: 24px;
-  background-size: 269px;
+  background-size: 200px;
   background-position: 205px;
 }
 .mail {
@@ -325,5 +332,9 @@ font-weight: 400;
 font-size: 20px;
 text-align: justify;
 color: #fff;
+}
+.footer-logo {
+  margin-right: 80px;
+  margin-top: 52px;
 }
 
