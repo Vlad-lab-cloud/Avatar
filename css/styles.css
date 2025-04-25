@@ -17,6 +17,7 @@
 }
 .hero-section-button {
   border-color: #26c7ea;
+  font-family: "Inter";
   color: #26c6ea;
   background-color: #0b0e66;
    border-top-left-radius: 41px;
@@ -53,6 +54,22 @@ font-weight: 400;
 font-size: 36px;
 text-align: justify;
 color: #0a3853;
+margin-left: 105px;
+}
+.quote1-part2 {
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 36px;
+text-align: justify;
+color: #0a3853;
+}
+.quote2-part2 {
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 36px;
+text-align: justify;
+color: #141414;
+margin-left: 260px;
 }
 .quote2 {
   font-family: var(--font-family);
@@ -60,6 +77,7 @@ font-weight: 400;
 font-size: 36px;
 text-align: justify;
 color: #141414;
+margin-left: 50px;
 }
 .quote3 {
   font-family: var(--font-family);
@@ -67,6 +85,14 @@ font-weight: 400;
 font-size: 36px;
 text-align: justify;
 color: #141414;
+}
+.quote3-part2 {
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 36px;
+text-align: justify;
+color: #141414;
+margin-left: 60px;
 }
 .header-links {
  text-decoration: none;
@@ -112,7 +138,9 @@ padding-top: 40px;
   display: flex;
   align-content: center;
   background-image:url(../images/bird.png) ;
-  background-size: 400px;
+  background-size: 450px;
+    background-position-y: 130px;
+    background-position-x: 365px;
   background-position: bottom center ;
   background-repeat: no-repeat;
 }
@@ -156,11 +184,13 @@ color: #000;
   align-content: center;
 }
 .sub-title {
-  padding-bottom: 65px;
+  padding-bottom: 96px;
+  padding-top: 16px;
 }
 .translations-list-text {
-  padding-left: 94px;
+  padding-left: 100px;
   padding-top: 40px;
+  font-family: "Inter";
 }
 .switcher {
   margin: 49px;
@@ -216,7 +246,7 @@ text-align: center;
 }
 .socials-list {
   margin-left: 1006px;
-  margin-bottom: 599px;
+  padding-bottom: 299px;
 }
 .socials-list-item {
   margin-bottom: 24px;
@@ -285,7 +315,7 @@ border-top-left-radius: 41px;
   margin-top: 55px;
 }
 .copyright {
-  margin-left: 667px;
+  margin-left: 350px;
   margin-right: 3px;
 }
 .trailer-img {
@@ -309,8 +339,8 @@ border-top-left-radius: 41px;
   justify-content: space-between;
   width: 665px;
   height: 24px;
-  background-size: 210px;
-  background-position: 205px;
+  background-size: 245px;
+  background-position: 140px;
   margin-bottom: 16px;
 }
 .address-item2 {
@@ -336,5 +366,16 @@ color: #fff;
 .footer-logo {
   margin-right: 80px;
   margin-top: 52px;
+}
+.translations-list-text2 {
+  font-family: var(--second-family);
+font-weight: 400;
+font-size: 24px;
+line-height: 100%;
+text-align: justify;
+color: #141414;
+padding-bottom: 40px;
+padding-top: 80px;
+padding-left: 105px;
 }
 
