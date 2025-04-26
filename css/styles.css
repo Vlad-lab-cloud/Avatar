@@ -25,6 +25,7 @@
   width: 260px;
   height: 80px;
   margin: 330px, 306px;
+  margin-bottom: 179px;
 }
 .container {
   width: 1052px;
@@ -244,10 +245,6 @@ margin-bottom: 81px;
 margin-left: 370px;
 text-align: center;
 }
-.socials-list {
-  margin-left: 1006px;
-  padding-bottom: 299px;
-}
 .socials-list-item {
   margin-bottom: 24px;
 }
@@ -342,6 +339,11 @@ border-top-left-radius: 41px;
   background-size: 245px;
   background-position: 140px;
   margin-bottom: 16px;
+}
+.hero-section-position {
+  justify-content: space-between;
+  display: flex;
+  align-items: center; 
 }
 .address-item2 {
   background-image: url(../images/footerlines.png) ;
